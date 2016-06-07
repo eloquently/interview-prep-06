@@ -38,7 +38,7 @@ rl.on('line', (line) => {
             // undoing...
             break;
         case 'redo':
-            //
+            // redoing...
             break;
     }
     
