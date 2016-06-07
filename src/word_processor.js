@@ -18,7 +18,7 @@ rl.prompt();
 
 let doc = "";
 const history = new Stack();
-const future = new Stack();
+let future = new Stack();
 
 rl.on('line', (line) => {
     // split input by words
