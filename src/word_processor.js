@@ -50,16 +50,12 @@ rl.on('line', (line) => {
             }
             break;
         case 'redo':
-<<<<<<< Updated upstream
-            // redoing...
-=======
             if(future.peek() !== undefined) {
                 history.push(doc);
                 doc = future.pop();
             } else {
                 console.log('nothing to redo');
             }
->>>>>>> Stashed changes
             break;
     }
     
