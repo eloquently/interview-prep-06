@@ -17,11 +17,7 @@ rl.setPrompt(' > ');
 rl.prompt();
 
 let doc = "";
-<<<<<<< Updated upstream
 const history = new Stack();
-=======
-let history = new Stack();
->>>>>>> Stashed changes
 let future = new Stack();
 
 rl.on('line', (line) => {
